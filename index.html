@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Material-design-css-framework by fran-diaz</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Material-design-css-framework</h1>
+          <h2>CSS Framework following specifications of Material Design from Google.</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/fran-diaz/Material-Design-CSS-Framework/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/fran-diaz/Material-Design-CSS-Framework/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/fran-diaz/Material-Design-CSS-Framework" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>
+<a id="material-design-css-framework" class="anchor" href="#material-design-css-framework" aria-hidden="true"><span class="octicon octicon-link"></span></a>Material Design CSS Framework</h1>
+
+<p>¡¡Work in progress!!</p>
+
+<h2>
+<a id="avoid-cors-same-origin-policy" class="anchor" href="#avoid-cors-same-origin-policy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Avoid CORS (same origin policy)</h2>
+
+<p>If you are testing Material Design CSS Framework, <strong>same origin police</strong> restrict you access to local file <code>custom_styles.html</code>. 
+The solution if you need to test it locally without a web server (on local) is disable your browser security policy temporaly. 
+Read below to know how to disable local files security policy in common browsers.</p>
+
+<h3>
+<a id="change-local-files-security-policy" class="anchor" href="#change-local-files-security-policy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Change local files security policy</h3>
+
+<h4>
+<a id="safari" class="anchor" href="#safari" aria-hidden="true"><span class="octicon octicon-link"></span></a>Safari</h4>
+
+<p>Enable the develop menu using the preferences panel, under Advanced -&gt; "Show develop menu in menu bar"</p>
+
+<p>Then from the safari "Develop" menu, select "Disable local file restrictions", it is also worth noting safari has some odd behaviour with caches, so it is advisable to use the "Disable caches" option in the same menu; if you are editing &amp; debugging using safari.</p>
+
+<h4>
+<a id="osx-chrome" class="anchor" href="#osx-chrome" aria-hidden="true"><span class="octicon octicon-link"></span></a>OSX Chrome</h4>
+
+<p>Start Chrome executable with a command line flag:</p>
+
+<pre><code>open -a 'Google Chrome' --args -allow-file-access-from-files
+</code></pre>
+
+<h4>
+<a id="unix-chrome" class="anchor" href="#unix-chrome" aria-hidden="true"><span class="octicon octicon-link"></span></a>Unix Chrome</h4>
+
+<p>Start Chrome from command line with flag:</p>
+
+<pre><code>google-chrome  --allow-file-access-from-files
+</code></pre>
+
+<h4>
+<a id="windows-chrome" class="anchor" href="#windows-chrome" aria-hidden="true"><span class="octicon octicon-link"></span></a>Windows Chrome</h4>
+
+<p>Close all running chrome instances first. Then start Chrome executable with a command line flag:</p>
+
+<pre><code>chrome --allow-file-access-from-files
+</code></pre>
+
+<p>On Windows, the easiest is probably to create a special shortcut which has added flag (right-click on shortcut -&gt; properties -&gt; target).</p>
+
+<h4>
+<a id="firefox" class="anchor" href="#firefox" aria-hidden="true"><span class="octicon octicon-link"></span></a>Firefox</h4>
+
+<ol>
+<li>Go to <code>about:config</code>
+</li>
+<li>Find <code>security.fileuri.strict_origin_policy</code> parameter</li>
+<li>Set it to <code>false</code>
+</li>
+</ol>
+
+<h4>
+<a id="internet-explorer-11" class="anchor" href="#internet-explorer-11" aria-hidden="true"><span class="octicon octicon-link"></span></a>Internet Explorer 11</h4>
+
+<p>Tested over version 11.0.9600.16438 and shows ok.</p>
+
+<h3>
+<a id="checking-which-flags-are-enabled-in-google-chrome" class="anchor" href="#checking-which-flags-are-enabled-in-google-chrome" aria-hidden="true"><span class="octicon octicon-link"></span></a>Checking which flags are Enabled in Google Chrome</h3>
+
+<h4>
+<a id="in-the-browser" class="anchor" href="#in-the-browser" aria-hidden="true"><span class="octicon octicon-link"></span></a>In the browser</h4>
+
+<p>Open new tab to the URL ‘chrome://version/’ shows common information about Google Chrome loaded environment. 
+The block <strong>Command Line</strong> should show you the list of enabled flags. (ex. <code>"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-file-access-from-files --flag-switches-begin --flag-switches-end</code>)</p>
+        </section>
+
+        <footer>
+          Material-design-css-framework is maintained by <a href="https://github.com/fran-diaz">fran-diaz</a><br>
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
